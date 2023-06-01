@@ -1,0 +1,10 @@
+name = "ai-cyoa"
+main = "src/index.ts"
+compatibility_date = "2023-05-26"
+routes = [
+	{ pattern = "api.aicyoa.com", custom_domain = true }
+]
+kv_namespaces = [
+    { binding = "ADVENTURES", preview_id = "278eb8234d264871ae37118b22594d85", id = "fdb49c5c6e664e3d900615fa73bdbb80" }
+]
+[vars]
